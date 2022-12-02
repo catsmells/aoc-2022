@@ -6,3 +6,4 @@ Like last year, I'll use any language I'd like. I'll try to stick to functional 
 | Day | Language |
 | --- | -------- |
 | 1 | R |
+| 2 | 05AB1E |
