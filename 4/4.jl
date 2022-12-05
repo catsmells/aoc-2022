@@ -1,0 +1,7 @@
+xx = readlines("input.dat")
+nums = map(x->parse.(Int,split(x,ispunct)),xx)
+fullcont(x) = (x[1]<=x[3]&&x[4]<=x[2])||(x[3]<=x[1]&&x[2]<=x[4])
+overlap(x) = (x[3]<=x[1]<=x[4])||(x[3]<=x[2]<=x[4])||(x[1]<=x[3]&&x[4]<=x[2])
+xxx = sum(fullcont.(nums))
+xxxx = sum(overlap.(nums))
+println((xxx,xxxx))
