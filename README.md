@@ -8,3 +8,4 @@ Like last year, I'll use any language I'd like. I'll try to stick to functional 
 | 1 | R |
 | 2 | 05AB1E |
 | 3 | 05AB1E |
+| 4 | Julia |
